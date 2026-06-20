@@ -1,4 +1,4 @@
-const API_BASE = "http://localhost:5000/api";
+const API_BASE = "https://backend-brown-omega-94.vercel.app/api";
 
 const getHeaders = () => {
   const token = localStorage.getItem("token");
